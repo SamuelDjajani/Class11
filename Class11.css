@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+#content1 {
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #000000;
+  flex-wrap: wrap;
+}
+
+.box1 {
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+#content {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  border: 1px solid #000000;
+  
+}
+
+.box {
+  width: 400px;
+  height: 100px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+	text-align: center;
+}
+
+h2 {
+	background-color: darkgray;
+}
+
+p { 
+  background-color: seashell;
+  margin: 100px;
+  padding: 25px;
+  text-align: center;
+  font-size: 30px;
+  
+  
+}
